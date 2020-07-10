@@ -1,0 +1,17 @@
+header { position: fixed; top: 0; left: 0; height: 140px; width: 100%; }
+@media (max-width: 776px) { header { height: 100px; position: static; } }
+header img { height: 100%; margin-left: 25px; }
+
+body { font-family: sans-serif; margin: 0; background: #000; }
+
+#editor { max-width: 800px; padding: 0 25px; margin: 120px auto 120px; color: #fff; line-height: 1.55em; font-size: 17px; letter-spacing: 0.5px; }
+@media (max-width: 776px) { #editor { margin: 25px auto 45px; } }
+#editor h1 { font-size: 38px; margin-bottom: 60px; line-height: 1.55em; }
+@media (max-width: 776px) { #editor h1 { font-size: 30px; margin-top: -5px; margin-bottom: 35px; } }
+@media (max-width: 776px) { #editor h2 { font-size: 18px; } }
+#editor ul, #editor ol { margin: 15px auto 25px; }
+#editor ul li, #editor ol li { margin-bottom: 5px; }
+#editor a { color: #aaa; }
+
+footer { background: #333; padding: 35px; }
+footer p { font-size: 14px; color: #ccc; text-align: center; }
