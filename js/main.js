@@ -26,7 +26,7 @@ $(document).ready(function () {
     $dropdown.on('click', function(){
         var $ul = $(this).find('>ul');
         if($ul.length < 1 ){
-            $(this).parent().parent().find('>ul').toggleClass('show');
+            $(this).parent().find('>ul').toggleClass('show');
         }
         else{
             $ul.toggleClass('show');
