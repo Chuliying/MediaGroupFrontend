@@ -234,6 +234,7 @@ p {
 
     >h1 {
         font-family: 'Oswald' ,sans-serif;
+        margin-bottom: 25px;
         
         @media (max-width:$xs) {
             padding-bottom: 15px;    
@@ -682,6 +683,12 @@ p {
             margin: auto;
         }
 
+        &.brands{
+            img{
+                border-radius: 0;
+            }
+        }
+
         >div, >a {
             @media (max-width:$xs) {
                 width: 100%;
@@ -766,7 +773,7 @@ p {
     margin: auto;
     margin-top: 45px;
     padding: 0;
-    border: solid 1px #ccc;
+    border: solid 1px #aaa;
     >li{
         width: 100%;
         display: flex;
