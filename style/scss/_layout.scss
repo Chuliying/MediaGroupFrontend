@@ -774,6 +774,7 @@ p {
     margin-top: 45px;
     padding: 0;
     border: solid 1px #aaa;
+  
     >li{
         width: 100%;
         display: flex;
@@ -785,6 +786,16 @@ p {
 
         .title{
             cursor: pointer;
+            i{
+                transform: rotate(0deg);
+                transition: 0.3s;
+            }
+            &.active{
+                i{
+                    transform-origin: center;
+                    transform: rotate(-180deg);
+                }
+            }
         }
         &:last-child{
             border-bottom: solid 1px #aaa;
@@ -990,5 +1001,23 @@ p {
                 font-size: 12px;
             }
         }
+    }
+}
+
+#editor{
+    max-width: 700px;
+    margin: auto;
+    li{
+        margin-bottom: 1em;
+        margin-top: 1em;
+        li{
+            &:last-child{
+                margin-bottom: 1.5em;
+            }
+        }
+    }
+
+    p + h4{
+        margin-top: 35px;
     }
 }

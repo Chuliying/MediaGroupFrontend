@@ -2168,6 +2168,8 @@ p { font-size: 17px; line-height: 1.55em; }
 .job-list { margin: auto; margin-top: 45px; padding: 0; border: solid 1px #aaa; }
 .job-list > li { width: 100%; display: flex; flex-direction: row; flex-wrap: wrap; background: #f7f7f7; border-top: solid 1px #aaa; color: #555; }
 .job-list > li .title { cursor: pointer; }
+.job-list > li .title i { transform: rotate(0deg); transition: 0.3s; }
+.job-list > li .title.active i { transform-origin: center; transform: rotate(-180deg); }
 .job-list > li:last-child { border-bottom: solid 1px #aaa; }
 .job-list > li.active { color: #000; }
 .job-list > li i { font-size: 21px; float: right; }
@@ -2208,6 +2210,11 @@ p { font-size: 17px; line-height: 1.55em; }
 @media (max-width: 776px) { .article .author-box .description p { position: relative; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; line-height: 18px; font-size: 12px; height: 54px; margin-bottom: 0px; } }
 .article .author-box .more-author-btn { font-size: 14px; border: solid 1px #000; display: table; padding: 8px; border-radius: 2px; margin-top: 15px; color: #000; letter-spacing: 0.5px; font-size: 13px; margin-left: 85px; }
 @media (max-width: 776px) { .article .author-box .more-author-btn { margin-left: 0px; font-size: 12px; } }
+
+#editor { max-width: 700px; margin: auto; }
+#editor li { margin-bottom: 1em; margin-top: 1em; }
+#editor li li:last-child { margin-bottom: 1.5em; }
+#editor p + h4 { margin-top: 35px; }
 
 .hamburger { padding-top: 15px; margin-right: 0; margin-left: auto; position: relative; z-index: 10; }
 
