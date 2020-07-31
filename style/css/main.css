@@ -2254,7 +2254,7 @@ p { font-size: 17px; line-height: 1.55em; }
 .media-container .flex-box div img { height: 80px; max-width: 100%; }
 
 .program-container .program-flex { margin-left: -7px; margin-right: -7px; flex-wrap: wrap; }
-.program-container .program-flex > div { box-sizing: content-box; }
+.program-container .program-flex > div { box-sizing: content-box; cursor: pointer; }
 @media (max-width: 776px) { .program-container .program-flex > div { width: 100%; } }
 .program-container .program-flex img { width: 100%; }
 .program-container .program-flex p { position: absolute; bottom: 7px; left: 0; margin: 7px; color: #fff; padding: 15px; background: rgba(0, 0, 0, 0.68); opacity: 0; transition: 0.3s; }

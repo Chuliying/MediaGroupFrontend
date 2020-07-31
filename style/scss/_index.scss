@@ -128,6 +128,7 @@
         flex-wrap: wrap;
         > div {
             box-sizing: content-box;
+            cursor: pointer;
             @media (max-width: 776px) {
                 width: 100%;
             }
