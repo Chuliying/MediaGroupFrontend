@@ -2298,7 +2298,7 @@ p { font-size: 17px; line-height: 1.55em; }
 
 .awards { padding: 45px; }
 @media (max-width: 776px) { .awards { padding: 0; } }
-.awards > div { width: 33.333333%; }
+.awards > div { width: 25%; }
 @media (max-width: 776px) { .awards > div { width: 100%; padding-left: 15px; } }
 .awards ul { padding: 0; margin: 0; list-style: none; padding-right: 35px; }
 .awards ul li { position: relative; border-left: dashed 1px #222; padding-left: 25px; padding-bottom: 25px; }
